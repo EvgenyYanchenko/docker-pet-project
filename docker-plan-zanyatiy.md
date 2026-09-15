@@ -14,9 +14,9 @@
 **Цель:** рабочее окружение, чтобы не спотыкаться на установке.
 
 - [X] Поставить Docker Engine на рабочую машину (Linux — из официального репозитория Docker, не из дистрибутивного `docker.io`; на Win/Mac — Docker Desktop).
-- [ ] Добавить себя в группу `docker`, чтобы не писать `sudo` каждый раз: `sudo usermod -aG docker $USER` → перелогиниться.
+- [x] Добавить себя в группу `docker`, чтобы не писать `sudo` каждый раз: `sudo usermod -aG docker $USER` → перелогиниться.
 - [X] Проверить, что всё живо: `docker run hello-world`.
-- [ ] Убедиться, что стоит Compose v2 как плагин: `docker compose version` (именно `docker compose`, а не `docker-compose`).
+- [x] Убедиться, что стоит Compose v2 как плагин: `docker compose version` (именно `docker compose`, а не `docker-compose`).
 
 **Критерий готовности:** `hello-world` отработал без sudo, `docker compose version` показывает v2.x.
 
