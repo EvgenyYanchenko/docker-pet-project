@@ -13,10 +13,10 @@
 
 **Цель:** рабочее окружение, чтобы не спотыкаться на установке.
 
-- [X] Поставить Docker Engine на рабочую машину (Linux — из официального репозитория Docker, не из дистрибутивного `docker.io`; на Win/Mac — Docker Desktop).
-- [x] Добавить себя в группу `docker`, чтобы не писать `sudo` каждый раз: `sudo usermod -aG docker $USER` → перелогиниться.
-- [X] Проверить, что всё живо: `docker run hello-world`.
-- [x] Убедиться, что стоит Compose v2 как плагин: `docker compose version` (именно `docker compose`, а не `docker-compose`).
+- [Xx] Поставить Docker Engine на рабочую машину (Linux — из официального репозитория Docker, не из дистрибутивного `docker.io`; на Win/Mac — Docker Desktop).
+- [xx] Добавить себя в группу `docker`, чтобы не писать `sudo` каждый раз: `sudo usermod -aG docker $USER` → перелогиниться.
+- [Xx] Проверить, что всё живо: `docker run hello-world`.
+- [xx] Убедиться, что стоит Compose v2 как плагин: `docker compose version` (именно `docker compose`, а не `docker-compose`).
 
 **Критерий готовности:** `hello-world` отработал без sudo, `docker compose version` показывает v2.x.
 
@@ -32,12 +32,12 @@
 
 Никакого курса, только руки:
 
-- [x] `docker run -d --name web -p 8080:80 nginx` — подними nginx, открой `http://localhost:8080`.
-- [x] `docker ps` / `docker ps -a` — разберись, чем отличается вывод.
-- [x] `docker logs web` и `docker logs -f web` — посмотри логи, поймай их в реальном времени.
-- [x] `docker exec -it web bash` — зайди внутрь, посмотри `/etc/nginx/`, `ps aux`. Пойми, что контейнер — это процесс, а не «маленькая ВМ».
-- [x] `docker stop web` → `docker start web` → `docker rm -f web` — управление жизненным циклом.
-- [x] `docker images`, `docker rmi`, `docker pull` — разберись с локальным хранилищем образов.
+- [xx] `docker run -d --name web -p 8080:80 nginx` — подними nginx, открой `http://localhost:8080`.
+- [xx] `docker ps` / `docker ps -a` — разберись, чем отличается вывод.
+- [xx] `docker logs web` и `docker logs -f web` — посмотри логи, поймай их в реальном времени.
+- [xx] `docker exec -it web bash` — зайди внутрь, посмотри `/etc/nginx/`, `ps aux`. Пойми, что контейнер — это процесс, а не «маленькая ВМ».
+- [xx] `docker stop web` → `docker start web` → `docker rm -f web` — управление жизненным циклом.
+- [xx] `docker images`, `docker rmi`, `docker pull` — разберись с локальным хранилищем образов.
 
 **Критерий готовности:** можешь по памяти поднять контейнер с пробросом порта, зайти внутрь, посмотреть логи и всё за собой убрать.
 
