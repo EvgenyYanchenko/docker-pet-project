@@ -78,9 +78,9 @@
 
 ### Занятие 2.1 — первый compose
 
-- [x] Переписать связку из блока 1 в `compose.yaml`.
-- [x] Освоить: `docker compose up -d`, `docker compose ps`, `docker compose logs -f`, `docker compose down`, `docker compose down -v` (с удалением томов).
-- [x] Понять, что Compose сам создаёт сеть для проекта — сервисы видят друг друга по имени сервиса.
+- [xx] Переписать связку из блока 1 в `compose.yaml`.
+- [xx] Освоить: `docker compose up -d`, `docker compose ps`, `docker compose logs -f`, `docker compose down`, `docker compose down -v` (с удалением томов).
+- [xx] Понять, что Compose сам создаёт сеть для проекта — сервисы видят друг друга по имени сервиса.
 
 ### Занятие 2.2 — app + PostgreSQL (твоя территория)
 
